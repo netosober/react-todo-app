@@ -1,0 +1,24 @@
+.page-layout {
+  background-color: #1e3a8a; /* Tailwind class bg-blue-950 */
+  width: 100vw; /* Tailwind class w-lvw */
+  height: 100vh; /* Tailwind class h-lvh */
+  padding: 1rem; /* Tailwind class p-4 */
+}
+
+.content-wrapper {
+  background-color: white; /* Tailwind class bg-white */
+  border-radius: 0.5rem; /* Tailwind class rounded-lg */
+  padding: 1rem; /* Tailwind class p-4 */
+  max-width: 48rem; /* Tailwind class max-w-3xl */
+  margin: 0 auto; /* Tailwind class mx-auto */
+}
+
+.content-grid {
+  display: grid; /* Tailwind class grid */
+  grid-template-columns: repeat(12, 1fr); /* Tailwind class grid-cols-12 */
+  gap: 1rem; /* Tailwind class gap-4 */
+}
+
+.content-grid > * {
+    grid-column: span 12; /* Tailwind class col-span-12 */
+}
